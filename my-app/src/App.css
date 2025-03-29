@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #585555;
+  color: black;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-display {
+  flex: 2;
+  padding: 2rem;
+  background-color: #989494;
+  text-align: center;
+}
+
+.cat-card {
+  background-color: #443f3f;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.attributes button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(86, 98, 123);
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.attributes button:hover {
+  background-color: rgb(18, 28, 47);
+}
+
+.discover {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.discover:hover {
+  background-color: #0056b3;
+}
+.left-panel {
+  flex: 1;
+  background-color: #7b777e;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.left-panel h2 {
+  margin-top: 0;
+}
+
+.history-item {
+  margin-bottom: 1rem;
+  background: rgb(224, 224, 51);
+  padding: 0.5rem;
+  border-radius: 6px;
+  text-align: center;
+}
+.right-panel {
+  flex: 1;
+  background-color: #848286;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.right-panel h2 {
+  margin-top: 0;
+}
+
+.ban-list button {
+  margin: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #638ba4;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ban-list button:hover {
+  background-color: #9d8a8c;
+}
